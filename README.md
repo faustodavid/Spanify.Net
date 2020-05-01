@@ -3,7 +3,7 @@
 Span extensions to increase perf while keeping the same productivity.
 
 ## Split
-Split works similiar to string.split but **allocation-free** and on top of `ReadOnlySpan<char>`, you can get a `ReadOnlySpan<char>` from any string using the extension `AsSpan()`.
+Split works similiar to `string.Split` but **allocation-free** and on top of `ReadOnlySpan<char>`, you can get a `ReadOnlySpan<char>` from any string using the extension `AsSpan()`.
 
 ### Example
 
