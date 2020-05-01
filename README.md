@@ -35,6 +35,9 @@ Intel Core i9-9880H CPU 2.30GHz, 1 CPU, 16 logical and 8 physical cores
 
 **Split and enumerate collection**
 
+`N` is the amount of item being split.
+
+
 ```
 |       Method |   N |        Mean |      Error |     StdDev | Ratio | RatioSD |  Gen 0 |  Gen 1 | Gen 2 | Allocated |
 |------------- |---- |------------:|-----------:|-----------:|------:|--------:|-------:|-------:|------:|----------:|
@@ -55,6 +58,8 @@ Intel Core i9-9880H CPU 2.30GHz, 1 CPU, 16 logical and 8 physical cores
 ```
 
 **Split and get element by index**
+
+`N` is the amount of item being split.
 
 ```
 |     Method |   N |        Mean |     Error |     StdDev |      Median | Ratio | RatioSD |  Gen 0 |  Gen 1 | Gen 2 | Allocated |
