@@ -3,7 +3,7 @@ using Xunit;
 
 namespace Spanify.Net.UnitTests
 {
-    public class UnitTest1
+    public class CommaSeparatedSpanCollectionTests
     {
         [InlineData("val0")]
         [InlineData("val0,val1")]
