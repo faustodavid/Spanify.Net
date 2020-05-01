@@ -9,11 +9,11 @@ namespace Spanify.Net.UnitTests
         [InlineData("val0,val1")]
         [InlineData("val0,val1,val2")]
         [Theory]
-        public void Enumeration_GetEnumerator_return_items_in_correct_order(string data)
+        public void Enumeration_GetEnumerator_return_items_in_correct_order(string input)
         {
-            string[] expectedValues = data.Split(',');
+            var expectedValues = input.Split(',');
 
-            var actual = data.AsSpan().Split(',');
+            var actual = input.AsSpan().Split(',');
             var actualEnumerator = actual.GetEnumerator();
 
             foreach (ReadOnlySpan<char> expectedValue in expectedValues)
@@ -21,7 +21,6 @@ namespace Spanify.Net.UnitTests
                 Assert.True(actualEnumerator.MoveNext());
                 Assert.True(expectedValue.SequenceEqual(actualEnumerator.Current));
             }
-            
             Assert.False(actualEnumerator.MoveNext());
         }
         
@@ -29,11 +28,11 @@ namespace Spanify.Net.UnitTests
         [InlineData("val0,val1")]
         [InlineData("val0,val1,val2")]
         [Theory]
-        public void Enumeration_Foreach_can_use_the_enumerator(string data)
+        public void Enumeration_Foreach_can_use_the_enumerator(string input)
         {
-            string[] expectedValues = data.Split(',');
+            var expectedValues = input.Split(',');
 
-            var actualValues = data.AsSpan().Split(',');
+            var actualValues = input.AsSpan().Split(',');
 
             foreach (var expected in expectedValues)
             {
@@ -54,11 +53,11 @@ namespace Spanify.Net.UnitTests
         [InlineData("val0,val1")]
         [InlineData("val0,val1,val2")]
         [Theory]
-        public void Get_return_correct_items_per_index(string data)
+        public void Get_return_correct_items_per_index(string input)
         {
-            string[] expectedValues = data.Split(',');
+            string[] expectedValues = input.Split(',');
 
-            var actualValues = data.AsSpan().Split(',');
+            var actualValues = input.AsSpan().Split(',');
 
             for (int i = 0; i < expectedValues.Length; i++)
             {

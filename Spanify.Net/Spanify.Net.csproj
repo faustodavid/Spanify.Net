@@ -2,10 +2,20 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <Authors>Fausto David Suarez Rosario</Authors>
+        <Title>Spanify.Net</Title>
+        <AssemblyName>Spanify.Net</AssemblyName>
+        <PackageId>Spanify.Net</PackageId>
+        <Description>Span extensions to increase perf while keeping the same productivity.</Description>
+        <PackageTags>ASP.NET;Performance;Span</PackageTags>
+        <RepositoryUrl>https://github.com/faustodavid/Spanify.Net</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageVersion>0.0.1</PackageVersion>
+        <PackageReleaseNotes></PackageReleaseNotes>
+        <Copyright>Copyright © Fausto David Suarez Rosario 2020</Copyright>
+        <PackageProjectUrl>https://github.com/faustodavid/Spanify.Net</PackageProjectUrl>
     </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="ListPool" Version="2.3.5" />
-    </ItemGroup>
-
+    
 </Project>
