@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spanify.Net", "Spanify.Net\Spanify.Net.csproj", "{E662D826-1BF2-476A-98C5-F8EE95AE45AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spanify.Net.UnitTests", "Spanify.Net.UnitTests\Spanify.Net.UnitTests.csproj", "{9C2F93EA-D7EE-40D6-937A-626BD3628282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spanify.Net.Benchmarks", "Spanify.Net.Benchmarks\Spanify.Net.Benchmarks.csproj", "{B1137730-3167-4885-A559-31B240473A82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E662D826-1BF2-476A-98C5-F8EE95AE45AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E662D826-1BF2-476A-98C5-F8EE95AE45AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E662D826-1BF2-476A-98C5-F8EE95AE45AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E662D826-1BF2-476A-98C5-F8EE95AE45AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C2F93EA-D7EE-40D6-937A-626BD3628282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C2F93EA-D7EE-40D6-937A-626BD3628282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C2F93EA-D7EE-40D6-937A-626BD3628282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C2F93EA-D7EE-40D6-937A-626BD3628282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1137730-3167-4885-A559-31B240473A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1137730-3167-4885-A559-31B240473A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1137730-3167-4885-A559-31B240473A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1137730-3167-4885-A559-31B240473A82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
