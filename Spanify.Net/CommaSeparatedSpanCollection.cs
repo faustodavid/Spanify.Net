@@ -57,7 +57,7 @@ namespace Spanify.Net
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public Enumerator GetEnumerator() => new Enumerator(_source, _separator);
+        public readonly Enumerator GetEnumerator() => new Enumerator(_source, _separator);
 
         public ref struct Enumerator
         {
