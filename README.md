@@ -2,6 +2,8 @@
 
 Span extensions to increase perf while keeping the same productivity.
 
+[![Nuget](https://img.shields.io/nuget/v/Spanify.Net)](https://www.nuget.org/packages/Spanify.Net/)
+
 ## Split
 Split works similiar to `string.Split` but **allocation-free** and on top of `ReadOnlySpan<char>`, you can get a `ReadOnlySpan<char>` from any string using the extension `AsSpan()`.
 
