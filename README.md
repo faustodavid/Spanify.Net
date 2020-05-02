@@ -1,6 +1,6 @@
 # Spanify.Net
 
-Span extensions to increase perf while keeping the same productivity.
+`Span<T>` extensions to increase perf while keeping the same productivity.
 
 [![Nuget](https://img.shields.io/nuget/v/Spanify.Net)](https://www.nuget.org/packages/Spanify.Net/)
 
